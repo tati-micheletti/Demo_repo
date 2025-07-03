@@ -52,10 +52,10 @@ ph_list <- expedition_data$ph_level[1:10]
 
 for (ph_test in ph_list) {
   if (ph_test < 6.5) {
-    print("High Priority")  
+    print("Go for it!")  
   } else if (ph_test > 7.5){
-    print("Discard")
+    print("Set Aside")
   } else {
-    print("Routine Analysis")
+    print("Stable")
   }
 }
